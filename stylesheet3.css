@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 10px;
+}
+
+body{
+	background-color: #203354;
+	font-size: 1.6rem;
+	display: flex;
+	justify-content: center;
+	padding-top: 18rem;
+}
+
+.header-class{
+	border-radius: 0.8rem;
+	flex-direction: column;
+	overflow: hidden;
+}
+.header-div{
+	background-color: blue;
+	padding: 4rem;
+	text-align: center;
+}
+
+.header-p{
+	background-color: #1e90ff;
+	text-align: center;
+	padding: 4rem;
+	height: 20rem;
+}
+span{
+	max-width: 75%;
+	display: inline-block;
+	line-height: 2.4rem;
+	margin-bottom: 4.8rem;
+}
+
+.svg{
+	font-size: 0.1px;
+	padding: 0;
+	width: 20%;
+}
+
+h3{
+	color: white;
+}
+
+.cta{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.anchor-div{
+	display:block;
+	border-radius: 0.8rem;
+	background-color: #203354;
+	padding: 1rem;
+	max-width: 20%;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 563px){
+	body{
+		padding:18rem 2rem 0 2rem;
+
+	}
+}
+
+@media only screen and (max-width: 435px){
+	span{
+		max-width: 80%;
+	}
+}
+
+@media only screen and (max-width: 377px){
+	span{
+		max-width: 90%;
+		margin-bottom: 3rem;
+	}
+
+	.anchor-div{
+		text-align: center;
+		overflow: hidden;
+	}
+
+
+}
+
+@media only screen and (max-width: 365px){
+	.anchor-div{
+		padding: 0.5 1rem;
+		width: 30%;
+		font-size: 1rem;
+	}
+
+	.cta{
+		overflow: hidden;
+		max-width: 100%;
+		text-align: center;
+		padding: 1rem;
+	}
+
+}
+
+
