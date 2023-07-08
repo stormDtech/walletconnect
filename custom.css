@@ -1,0 +1,131 @@
+
+        body {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "SF Pro Text", Roboto, Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-stretch: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: rgb(88, 112, 135);
+            overflow-y: auto;
+            text-rendering: optimizelegibility;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-font-smoothing: antialiased;
+            text-size-adjust: 100%;
+        }
+
+        .top {
+            width: 100%;
+            margin: 0px auto;
+            padding: 23px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+            grid-gap: 10px;
+            margin-bottom: 15px;
+            justify-content: center;
+        }
+
+        a.left {
+            color: rgb(88, 120, 188);
+            text-decoration: none;
+            font-weight: 540;
+            font-size: 15px;
+            padding-top: 10px;
+            /* justify-content: center; */
+        }
+
+        .top img {
+            width: 100%;
+            max-width: 110px;
+            min-width: 50px;
+            justify-content: center;
+        }
+
+        .gFeYHJ {
+            font-size: 35px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .lpfxqP {
+            width: 90%;
+            margin: 30px 0px;
+            font-size: 30px;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        .dXgqeu img {
+            width: 100%;
+            padding: 30px;
+        }
+
+        .lbvZBb {
+            flex: 1 1 0%;
+            margin: 30px -32px;
+            display: flex;
+            text-align: left;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+        }
+
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .bout {
+            padding: 20px;
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 1.35;
+            text-align: left;
+        }
+
+        .wallets {
+            padding: 20px;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.35;
+        }
+
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h2.home {
+            font-size: 32px;
+            font-weight: 300;
+            color: rgb(46, 67, 88);
+            margin-bottom: 20px;
+        }
+
+        h1.home {
+            font-weight: 450;
+            color: rgb(46, 67, 88);
+            margin-bottom: 20px;
+        }
